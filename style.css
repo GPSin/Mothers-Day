@@ -77,7 +77,6 @@ h2 {
 .flower_head {
   height: 7rem;
   width: 7rem;
-  background: #cba8ed;
   border-radius: 100%;
 }
 
@@ -99,16 +98,19 @@ h2 {
   border-radius: 2em 0 2em 0em;
 }
 
-.yellow {
-  width: 7.5rem;
-  height: 7.5rem;
-  background: khaki;
+.flower_head {
+  background-image: url(images/Mom1.jpg);
+  background-size: cover;
 }
 
-.pink {
-  width: 6rem;
-  height: 6rem;
-  background: #e2b1b1;
+.flower_head.pink {
+  background-image: url(images/Mom3.jpg);
+  background-size: cover;
+}
+
+.flower_head.yellow {
+  background-image: url(images/Mom2.jpg);
+  background-size: cover;
 }
 
 .fadein {
